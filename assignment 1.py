@@ -1,0 +1,30 @@
+covid19_india={
+    "confimed":11385395,
+     "Active":216349,
+     "recovered":11050628,
+    "Deceased":158764
+}
+print(covid19_india)
+print(len(covid19_india))
+print(type(covid19_india))
+
+state1={
+    "name":"maharashta",
+     "confimed":2314413,
+     "Active":126231,
+     "recovered":2134072,
+     "Deceased":52861,
+    "tested":"1.8cr"
+}
+state2={
+    "name":"kerala",
+     "confimed":1091271,
+     "Active":29474,
+     "recovered":1057097,
+     "Deceased":4397,
+    "tested":"1.2cr"
+}
+print("COVID-19 INDIA")
+states=[state1,state2]
+covid19_india["states"]=states
+print(covid19_india)
