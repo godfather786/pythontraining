@@ -11,7 +11,42 @@ name_of_state={
     "Maharashtra": 2314413,
     "kerala":1091271,
 }
-print(name_of_state)
+print()
+
+cart = []
+
+choice = "yes"
+"""state1 = input("enter the state1:")
+cart.append(name_of_state[state1])
+
+state2 = input("enter the state2:")
+cart.append(name_of_state[state2])
+
+print("the above states have Covid-19 cases")
+print(cart)"""
+
+
+while choice == "yes":
+    item = input("enter the state:")
+    cart.append(name_of_state[item])
+
+    choice = input(" ADD the Covid-19 states(yes/no)")
+
+print("Covid-19 cases[{}]:".format(len(cart)))
+print(cart)
+
+total_cases = sum(cart)
+print("total", total_cases)
+
+vaccine_code = input("you any enter vaccine code if you have")
+if vaccine_code == "MODI":
+    print("VACCINE CODE APPLIED")
+    total_cases = total_cases - (0.20 * total_cases)
+
+    print("Amount After Promo Code",total_cases)
+
+    total_cases = total_cases+(0.18 * total_cases)
+    print("final vaccine dose",total_cases)
 
 """Maharashtra={
     "name":"maharashta",

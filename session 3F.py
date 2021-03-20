@@ -11,17 +11,17 @@ print(menu)
 cart = []
 
 choice = "yes"
-item1 = input("enter the item1:")
+"""item1 = input("enter the item1:")
 cart.append(menu[item1])
 
 item2 = input("enter the item2:")
 cart.append(menu[item2])
 
 print("your pricing in the order")
-print(cart)
+print(cart)"""
 
 
-"""while choice == "yes":
+while choice == "yes":
     item = input("enter the item:")
     cart.append(menu[item])
 
@@ -41,4 +41,4 @@ if promo_code == "GODFATHER":
     print("Amount After Promo Code",total_amount)
 
     total_amount = total_amount +(0.18 * total_amount)
-    print("final amount",total_amount)"""
+    print("final amount",total_amount)
