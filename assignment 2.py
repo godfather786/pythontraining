@@ -7,12 +7,13 @@ covid19_india={
 }
 print(covid19_india)
 
-
 name_of_state={
-    "Maharashtra": 47547,
-    "kerala": 467465,
+    "Maharashtra": 2314413,
+    "kerala":1091271,
 }
-Maharashtra={
+print(name_of_state)
+
+"""Maharashtra={
     "name":"maharashta",
      "confimed":2314413,
      "Active":126231,
@@ -23,5 +24,5 @@ Maharashtra={
 
 
 name_of_state = name_of_state, "kerala"
-print( input ("enter the state:", name_of_state))
+print( input ("enter the state:", name_of_state))"""
 
