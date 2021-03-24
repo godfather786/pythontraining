@@ -41,11 +41,11 @@ print("total", total_cases)
 vaccine_code = input("you any enter vaccine code if you have")
 if vaccine_code == "MODI":
     print("VACCINE CODE APPLIED")
-    total_cases = total_cases - (0.20 * total_cases)
+    total_cases = total_cases - (0.15* total_cases)
 
     print("Amount After Promo Code",total_cases)
 
-    total_cases = total_cases+(0.18 * total_cases)
+    total_cases = total_cases +(0.8* total_cases)
     print("final vaccine dose",total_cases)
 
 """Maharashtra={
